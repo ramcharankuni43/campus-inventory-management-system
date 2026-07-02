@@ -1,0 +1,35 @@
+# ===== PYTHON / DJANGO =====
+venv/
+**/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# ===== ENVIRONMENT FILES =====
+.env
+.env.local
+.env.production
+
+# ===== DATABASE =====
+db.sqlite3
+
+# ===== NODE / REACT =====
+node_modules/
+frontend/dist/
+frontend/build/
+
+# ===== VS CODE =====
+.vscode/
+*.code-workspace
+
+# ===== OS FILES =====
+.DS_Store
+Thumbs.db
+
+# ===== LOG FILES =====
+*.log
